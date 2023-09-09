@@ -1,0 +1,162 @@
+@import url(https://fonts.google.com/specimen/Barlow);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+* {
+  font-family: "Barlow";
+}
+#header {
+  height: 100vh;
+  background: url(../images/desktop/image-header.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#btn {
+  background-color: white;
+  outline: 0;
+  border-radius: 40px;
+  border: 0;
+  color: black;
+}
+
+#btn:hover  {
+  opacity: 0.5;
+}
+
+#title{
+  font-family: "Fraunces";
+  font-size: 3rem;
+  font-weight: 700;
+  
+
+}
+
+.barlow{
+  font-family: "Barlow";
+  font-size: 15px;
+  font-weight: 600;
+  color:   hsl(232, 10%, 55%);
+}
+
+.transform{
+  margin-left: 50px;
+  overflow-y: hidden;
+
+  font-family: "barlow" ;
+  font-weight: 700;
+  
+} 
+
+.transform:after{
+  content: "";
+  display: block;
+  margin: 0;
+  width: 18%;
+  padding-top: -0px;
+  border-bottom: hsl(51, 100%, 49%) solid 6px;
+  
+
+}
+.transform1{
+  margin-left: 50px;
+  overflow-y: hidden;
+
+  font-family: "barlow" ;
+  font-weight: 700;
+  
+} 
+
+.transform1:after{
+  content: "";
+  display: block;
+  margin: 0;
+  width: 18%;
+  padding-top: -0px;
+  border-bottom: hsl(7, 99%, 70%)solid 6px;
+  
+}
+
+#fontfam {
+  font-family: "Fraunces";
+  font-size: 7rem;
+  letter-spacing: 4px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.graphics {
+  background: url(../images/desktop/image-graphic-design.jpg) no-repeat;
+  /* height: 100vh; */
+  padding: 22rem 5rem 4rem;
+  color: hsl(167, 40%, 24%) !important;
+   height: 600px;
+   max-height: 600px;
+   
+   background-size: cover;
+}
+
+.grap{
+  font-family: "Barlow";
+  font-weight: 700;
+
+}
+
+.param{
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 17px;
+  margin-left:170px ;
+  margin-right: 170px;
+}
+.param1{
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 17px;
+  margin-left:190px ;
+  margin-right: 190px;
+}
+
+.photograph {
+  background: url(../images/desktop/image-photography.jpg) no-repeat;
+  /* height: 100vh; */
+  padding: 22rem 5rem 4rem;
+  color: hsl(198, 62%, 26%);
+  height: 600px;
+   max-height: 600px;
+  
+   background-size: cover;
+}
+
+.testimonial{
+  font-family: "Fraunces";
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 800;
+  color:   hsl(232, 10%, 55%);
+  
+}
+
+.fs-5{
+  font-family: "Barlow";
+}
+
+.testimonial-text{
+  text-align: center;
+  position:relative
+  width: 75%;
+  color: rgb(86, 85, 85);
+  font-family: "barlow";
+  font-weight: 600;
+}
+.photo{
+  font-family: "Barlow";
+  font-weight: 700;
+  
+}
+
+.footer { 
+  background-color:  hsl(168, 27%, 46%)
+}
+
