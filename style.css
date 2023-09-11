@@ -1,0 +1,394 @@
+@import url(https://fonts.google.com/specimen/Barlow);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+* {
+  font-family: "Barlow";
+}
+#header {
+  height: 100vh;
+  background: url(./images/desktop/image-header.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#header h1{
+  font-size: 60px;
+  margin-top: 45px;
+  letter-spacing: 15px;
+}
+
+
+#btn {
+  background-color: white;
+  outline: 0;
+  border-radius: 40px;
+  border: 0;
+  color: black;
+}
+
+#btn:hover  {
+  opacity: 0.5;
+}
+
+#title{
+  font-family: "Fraunces";
+  font-size: 3rem;
+  font-weight: 700;
+  
+
+}
+
+.barlow{
+  font-family: "Barlow";
+  font-size: 15px;
+  font-weight: 600;
+  color:   hsl(232, 10%, 55%);
+}
+
+.transform{
+  margin-left: 50px;
+  overflow-y: hidden;
+
+  font-family: "barlow" ;
+  font-weight: 700;
+  
+} 
+
+.transform:after{
+  content: "";
+  display: block;
+  margin: 0;
+  width: 18%;
+  padding-top: -0px;
+  border-bottom: hsl(51, 100%, 49%) solid 6px;
+  
+
+}
+.transform1{
+  margin-left: 50px;
+  overflow-y: hidden;
+
+  font-family: "barlow" ;
+  font-weight: 700;
+  
+} 
+
+.transform1:after{
+  content: "";
+  display: block;
+  margin: 0;
+  width: 18%;
+  padding-top: -0px;
+  border-bottom: hsl(7, 99%, 70%)solid 6px;
+  
+}
+
+#fontfam {
+  font-family: "Fraunces";
+  font-size: 7rem;
+  letter-spacing: 4px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.graphics {
+  background: url(./images/desktop/image-graphic-design.jpg) no-repeat;
+  /* height: 100vh; */
+  padding: 22rem 5rem 4rem;
+  color: hsl(167, 40%, 24%) !important;
+   height: 600px;
+   max-height: 600px;
+   
+   background-size: cover;
+}
+
+.grap{
+  font-family: "Barlow";
+  font-weight: 700;
+
+}
+
+.param{
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 17px;
+  margin-left:170px ;
+  margin-right: 170px;
+}
+.param1{
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 17px;
+  margin-left:190px ;
+  margin-right: 190px;
+}
+
+.photograph {
+  background: url(./images/desktop/image-photography.jpg) no-repeat;
+  /* height: 100vh; */
+  padding: 22rem 5rem 4rem;
+  color: hsl(198, 62%, 26%);
+  height: 600px;
+   max-height: 600px;
+  
+   background-size: cover;
+}
+
+.testimonial{
+  font-family: "Fraunces";
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 800;
+  color:   hsl(232, 10%, 55%);
+  
+}
+
+.fs-5{
+  font-family: "Barlow";
+}
+
+.testimonial-text{
+   text-align: center; 
+  /* position:relative;  */
+  width: 100%;
+  color: rgb(86, 85, 85);
+  font-family: "barlow";
+  font-weight: 600;
+}
+.photo{
+  font-family: "Barlow";
+  font-weight: 700;
+  
+}
+
+.footer { 
+  background-color:  hsl(168, 27%, 46%)
+}
+
+.icon{
+  width: 100%;
+ display: grid;
+ grid-template-columns: 5px 5px 5px 5px;
+ column-gap: 35px;
+ justify-content: center;
+ margin-left: -10px;
+}
+
+
+@media screen and (max-width: 379px) {
+
+
+
+  #header {
+    /* height: 100vh; */
+    background: url(./images/desktop/image-header.jpg) no-repeat 150px 150px ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Fraunces', serif;
+  
+  }
+  #header h1{
+    font-size: 30px;
+    margin-top: 45px;
+    line-height: 40px;
+    letter-spacing: 10px;
+  }
+
+  #title{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  #title_words{
+    width: 150%;
+    position: relative;
+    right: 75px;
+  }
+  #title_end{
+    position: relative;
+    left: 50px;
+  }
+
+  
+  .grap{
+    position: relative;
+    bottom: 100px;
+  }
+
+  .photo{
+    position: relative;
+    bottom: 100px;
+  }
+  .param{
+    width: 80%;
+    font-size: 14px;
+    position: relative;
+    right: 130px;
+    bottom: 70px;
+  }
+
+  .param1{
+    width: 70%;
+    font-size: 14px;
+    position: relative;
+    right: 140px;
+    bottom: 70px;
+  
+  }
+
+  #h1_2{
+    font-size: 18.5px
+    
+  }
+
+  #test_img{
+    width: 50px;
+    height: 50px;
+    
+  }
+  #test_img_2{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 140px;
+
+  }
+  #test_img_3{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 270px;
+
+  }
+  #test_words{
+    width: 170%;
+    position: relative;
+    right: 60px;
+    bottom: 70px;
+
+  }
+  
+  #test_words_2{
+    width: 170%;
+    position: relative;
+    right: 60px;
+    bottom: 210px;
+
+  }
+
+  #test_words_3{
+    width: 170%;
+    position: relative;
+    right: 60px;
+    bottom: 340px;
+
+  }
+  #test_name{
+    position: relative;
+    bottom: 150px;
+  }
+  #test_name_2{
+    position: relative;
+    bottom: 280px;
+  }
+  #test_name_3{
+    position: relative;
+    bottom: 390px;
+  }
+  #test_container{
+    height: 150vh;
+  }
+
+  #pre_footer_img{
+    max-width: 100%;
+  }
+
+  #footer{
+    display: flex;
+    flex-wrap: nowrap;
+    color: rgb(5, 100, 68);
+    gap: 25px;
+  }
+
+  .graphics {
+    background: url(./images/desktop/image-graphic-design.jpg) no-repeat;
+    /* height: 100vh; */
+    color: hsl(167, 40%, 24%) !important;
+    max-height: 100px;
+    background-size: cover;
+    order: 4;
+  }
+
+  .photograph {
+    background: url(./images/desktop/image-photography.jpg) no-repeat;
+    /* height: 100vh; */
+    padding: 22rem 5rem 4rem;
+    color: hsl(198, 62%, 26%);
+    max-height: 100px;
+    background-size: cover;
+    order: 5;
+  }
+
+  #header {
+    /* height: 100vh; */
+    background: url(./images/desktop/image-header.jpg) no-repeat;
+    background-position: center;
+    background-size: 1000px 750px;
+    width: 100%;
+    overflow: hidden;
+
+  
+  }
+  
+  #description{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #description_1{
+    flex-basis: 100%;
+    order: 1;
+  }
+
+  #image{
+    flex-basis: 100%;
+    order: 2;
+  }
+
+  #description_2{
+    flex-basis: 100%;
+    order: 2;
+  }
+  
+
+   /* .row align-items-center{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+.row align-items-cente {
+  flex-basis: 100%;
+  order: 3;
+}
+
+ img{ 
+  flex-basis: 100%;
+  order: 4; 
+  object-position: top;
+
+ }
+
+.sax4{
+  flex-basis: 100%;
+  order: 4;
+}  */
+
+ 
+ }
